@@ -1,0 +1,41 @@
+[
+  {
+    "item_name": "milk",
+    "normalized_name": "milk",
+    "category": "dairy",
+    "unit": "litre",
+    "aliases": ["milk", "amul milk", "toned milk", "full cream milk"],
+    "prices": {
+      "blinkit": { "unit_price": 28, "currency": "INR", "available": true },
+      "instamart": { "unit_price": 30, "currency": "INR", "available": true },
+      "zepto": { "unit_price": 29, "currency": "INR", "available": true },
+      "bigbasket": { "unit_price": 31, "currency": "INR", "available": true }
+    }
+  },
+  {
+    "item_name": "eggs",
+    "normalized_name": "eggs",
+    "category": "dairy",
+    "unit": "dozen",
+    "aliases": ["eggs", "dozen eggs", "brown eggs"],
+    "prices": {
+      "blinkit": { "unit_price": 80, "currency": "INR", "available": true },
+      "instamart": { "unit_price": 75, "currency": "INR", "available": true },
+      "zepto": { "unit_price": 78, "currency": "INR", "available": true },
+      "bigbasket": { "unit_price": 82, "currency": "INR", "available": true }
+    }
+  },
+  {
+    "item_name": "bread",
+    "normalized_name": "bread",
+    "category": "bakery",
+    "unit": "loaf",
+    "aliases": ["bread", "brown bread", "white bread"],
+    "prices": {
+      "blinkit": { "unit_price": 45, "currency": "INR", "available": true },
+      "instamart": { "unit_price": 50, "currency": "INR", "available": true },
+      "zepto": { "unit_price": 47, "currency": "INR", "available": true },
+      "bigbasket": { "unit_price": 44, "currency": "INR", "available": true }
+    }
+  }
+]

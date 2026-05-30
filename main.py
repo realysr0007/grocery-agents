@@ -33,6 +33,14 @@ def extract_total(price_comparison: str, platform: str) -> str:
             return match.group(1)
     return ""
 
+def extract_confirmation_platform(price_comparison: str) -> str:
+    pattern = r"^Reply YES to confirm order on (.+?)\.$"
+    for line in price_comparison.splitlines():
+        match = re.search(pattern, line.strip(), re.IGNORECASE)
+        if match:
+            return match.group(1)
+    return ""
+
 
 async def send_whatsapp_reply(phone_number: str, reply: str) -> bool:
     try:
@@ -99,7 +107,7 @@ async def whatsapp_reply(request: Request):
             print(f"process_grocery_message took: {elapsed:.2f}s")
             print(f"Price comparison: {price_comparison}")
 
-            platform = "Instamart" if "Instamart saves" in price_comparison else "Blinkit"
+            platform = extract_confirmation_platform(price_comparison)
             total = extract_total(price_comparison, platform)
             print(f"Extracted total: '{total}'")
             print(f"Platform: '{platform}'")
