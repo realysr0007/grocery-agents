@@ -37,5 +37,174 @@
       "zepto": { "unit_price": 47, "currency": "INR", "available": true },
       "bigbasket": { "unit_price": 44, "currency": "INR", "available": true }
     }
+  },
+  {
+  "item_name": "butter",
+  "normalized_name": "butter",
+  "category": "dairy",
+  "unit": "100g",
+  "aliases": ["butter", "amul butter", "salted butter"],
+  "prices": {
+    "blinkit": { "unit_price": 58, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 60, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 59, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 57, "currency": "INR", "available": true }
   }
+},
+{
+  "item_name": "rice",
+  "normalized_name": "rice",
+  "category": "grains",
+  "unit": "1kg",
+  "aliases": ["rice", "basmati rice", "sona masoori rice"],
+  "prices": {
+    "blinkit": { "unit_price": 95, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 99, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 97, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 92, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "sugar",
+  "normalized_name": "sugar",
+  "category": "staples",
+  "unit": "1kg",
+  "aliases": ["sugar", "white sugar", "chini"],
+  "prices": {
+    "blinkit": { "unit_price": 48, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 50, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 49, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 47, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "salt",
+  "normalized_name": "salt",
+  "category": "staples",
+  "unit": "1kg",
+  "aliases": ["salt", "iodized salt", "tata salt", "namak"],
+  "prices": {
+    "blinkit": { "unit_price": 28, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 30, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 29, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 27, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "cooking oil",
+  "normalized_name": "cooking oil",
+  "category": "staples",
+  "unit": "1litre",
+  "aliases": ["cooking oil", "sunflower oil", "refined oil", "oil"],
+  "prices": {
+    "blinkit": { "unit_price": 145, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 149, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 147, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 142, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "onion",
+  "normalized_name": "onion",
+  "category": "vegetables",
+  "unit": "1kg",
+  "aliases": ["onion", "onions", "pyaz"],
+  "prices": {
+    "blinkit": { "unit_price": 38, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 40, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 39, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 36, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "tomato",
+  "normalized_name": "tomato",
+  "category": "vegetables",
+  "unit": "1kg",
+  "aliases": ["tomato", "tomatoes", "tamatar"],
+  "prices": {
+    "blinkit": { "unit_price": 42, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 45, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 44, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 40, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "paneer",
+  "normalized_name": "paneer",
+  "category": "dairy",
+  "unit": "200g",
+  "aliases": ["paneer", "fresh paneer", "cottage cheese"],
+  "prices": {
+    "blinkit": { "unit_price": 95, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 99, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 97, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 94, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "atta",
+  "normalized_name": "atta",
+  "category": "grains",
+  "unit": "1kg",
+  "aliases": ["atta", "wheat flour", "aashirvaad atta"],
+  "prices": {
+    "blinkit": { "unit_price": 62, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 65, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 64, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 60, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "dal",
+  "normalized_name": "dal",
+  "category": "pulses",
+  "unit": "1kg",
+  "aliases": ["dal", "toor dal", "arhar dal", "moong dal"],
+  "prices": {
+    "blinkit": { "unit_price": 155, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 160, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 158, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 152, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "curd",
+  "normalized_name": "curd",
+  "category": "dairy",
+  "unit": "400g",
+  "aliases": ["curd", "dahi", "yogurt"],
+  "prices": {
+    "blinkit": { "unit_price": 45, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 48, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 46, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 44, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "cheese",
+  "normalized_name": "cheese",
+  "category": "dairy",
+  "unit": "200g",
+  "aliases": ["cheese", "cheese slices", "amul cheese"],
+  "prices": {
+    "blinkit": { "unit_price": 125, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 130, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 128, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 122, "currency": "INR", "available": true }
+  }
+},
+{
+  "item_name": "chicken",
+  "normalized_name": "chicken",
+  "category": "meat",
+  "unit": "1kg",
+  "aliases": ["chicken", "chicken pieces", "broiler chicken"],
+  "prices": {
+    "blinkit": { "unit_price": 180, "currency": "INR", "available": true },
+    "instamart": { "unit_price": 185, "currency": "INR", "available": true },
+    "zepto": { "unit_price": 182, "currency": "INR", "available": true },
+    "bigbasket": { "unit_price": 178, "currency": "INR", "available": true }
+  }
+}
 ]
